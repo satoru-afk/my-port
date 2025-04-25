@@ -1,4 +1,7 @@
 {
+  "homepage": "https://satoru-afk.github.io/my-port/",
+  "predeply": "npm run build",
+  "deploy": "gh-pages -d build",
   "name": "portfolio",
   "private": true,
   "version": "0.0.0",
