@@ -1,7 +1,5 @@
 {
-  "homepage": "https://satoru-afk.github.io/my-port/",
-  "predeply": "npm run build",
-  "deploy": "gh-pages -d build",
+  "homepage": "https://satoru-afk.github.io/my-port",
   "name": "portfolio",
   "private": true,
   "version": "0.0.0",
@@ -9,6 +7,8 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
+    "predeply": "npm run build",
+    "deploy": "gh-pages -d build",
     "lint": "eslint .",
     "preview": "vite preview"
   },
