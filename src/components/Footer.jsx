@@ -1,8 +1,8 @@
 import { motion } from "framer-motion";
 
 const socialLinks = [
-  { name: "GitHub", url: "#" },
-  { name: "Instagram", url: "#" },
+  { name: "GitHub", url: "https://github.com/satoru-afk" },
+  { name: "Instagram", url: "https://www.instagram.com/tokata.o0" },
 ]
 
 export default function Footer() {
